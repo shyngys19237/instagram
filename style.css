@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(198, 198, 198);
+    padding: 0 20%;
+}
+
+a {
+    display: flex;
+    align-self: center;
+    width: auto;
+    font-size: 30px;
+}
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+.like {
+    margin-right: 10px;
+    width: 30px; 
+    height: 30px; 
+}
+.com{
+    width: 50px; 
+    height: 40px;
+    display: flex;
+    bottom: 15px;
+}
+#posts {
+    display: flex;
+    justify-content: center;
+}
+
+#postsBox {
+    width: 40%;
+}
+
+.img {
+    width: 100%;
+}
+
+.post {
+    font-size: 30px;
+    border: 1px solid goldenrod;
+    padding: 50px;
+    margin: 30px 0;
+}
+
+.ava {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.avaBox {
+    display: flex;
+    align-items: center;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.like {
+    margin-right: 10px;
+    width: 50px;
+    height: 30px;
+}
+.numberOfLikes {
+    margin-left: 30px; 
+.hidden {
+    display: block;
+}

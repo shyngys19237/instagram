@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram-like Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a><b>Aragram</b></a>
+    </nav>
+    <section id="posts">
+        <div id="postsBox">
+            <div class="hidden">
+                <div id="firstPost" class="post">
+                    <div class="avaBox">
+                        <img class="ava" src="https://image.slidesharecdn.com/random-121031103820-phpapp02/85/-1-320.jpg">
+                        <b>Arafat</b>
+                    </div>
+                    <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeq7Y_JKCbdDUcvpnf3rd80FduHL8VNxTLAszkqj47hw&s.png">
+                    <div class="likes">
+                        <button class="likeBtn" onclick="like(event)"><img class="like" src="like.png"></button>
+                        <b class="like">Likes: </b><span class="numberOfLikes">78954561231</span>
+                    </div>
+                
+                    
+                        <div class="commentInput hidden">
+                            <input type="text" class="commentField" placeholder="Write a comment...">
+                            <button class="sendCommentBtn" onclick="sendComment(this)">Send</button>
+                        
+                    </div>
+                    <div class="postText">
+                        Я крут!
+                    </div>
+                    <hr>
+                    <div class="commentsSection">
+                    </div>
+        
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
